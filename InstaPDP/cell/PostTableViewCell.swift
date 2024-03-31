@@ -8,7 +8,15 @@
 import UIKit
 
 class PostTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet var userImageView: UIImageView!
+    
+    @IBOutlet var userFullNameLabel: UILabel!
+    
+    @IBOutlet var postImageView1: UIImageView!
+    
+    @IBOutlet var postImageView2: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,3 +29,4 @@ class PostTableViewCell: UITableViewCell {
     }
     
 }
+ 
